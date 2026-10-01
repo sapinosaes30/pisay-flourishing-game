@@ -17,6 +17,11 @@ py -m pygbag --build --title "PISAY FLOATING ISLANDS" .
 if errorlevel 1 goto :error
 
 echo.
+echo Enabling automatic game startup...
+py enable_web_autorun.py
+if errorlevel 1 goto :error
+
+echo.
 echo BUILD COMPLETE
 if exist "build\web" echo Output folder: %CD%\build\web
 exit /b 0

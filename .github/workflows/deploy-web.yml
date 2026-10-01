@@ -41,6 +41,9 @@ jobs:
       - name: Build browser game
         run: python -m pygbag --build --title "PISAY FLOATING ISLANDS" .
 
+      - name: Enable automatic game startup
+        run: python enable_web_autorun.py
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:

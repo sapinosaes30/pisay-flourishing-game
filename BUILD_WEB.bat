@@ -13,7 +13,7 @@ if errorlevel 1 goto :error
 
 echo.
 echo Building browser version...
-py -m pygbag --build --title "PISAY FLOATING ISLANDS" .
+py -m pygbag --build --ume_block 0 --title "PISAY FLOATING ISLANDS" .
 if errorlevel 1 goto :error
 
 echo.

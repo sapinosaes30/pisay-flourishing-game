@@ -1,7 +1,7 @@
 import asyncio
 import math
 import pygame
-from settings import WIDTH, HEIGHT, FPS, INTERACT_DISTANCE, WORLD_WIDTH, INK, MUTED, LOCATION_BADGE, FALL_THRESHOLD, CAMERA_SMOOTH, MARKER_BLUE, MARKER_GOLD, SUCCESS, WARNING
+from settings import WIDTH, HEIGHT, FPS, INTERACT_DISTANCE, WORLD_WIDTH, INK, MUTED, LOCATION_BADGE, FALL_THRESHOLD, CAMERA_SMOOTH, MARKER_BLUE, MARKER_GOLD, SUCCESS, WARNING, ACCENT
 from player import Player
 from world import World
 from npc import NPC
@@ -103,12 +103,12 @@ class Game:
         ]
 
         self.collectibles = [
-            Collectible(1040, 446, "school_supply", "Supply 1", "Study Island", "eileen_supplies"),
-            Collectible(1260, 444, "school_supply", "Supply 2", "Study Island", "eileen_supplies"),
-            Collectible(1490, 442, "school_supply", "Supply 3", "Study Island", "eileen_supplies"),
-            Collectible(1110, 410, "research_note", "Research 1", "Study Island", "zen_research"),
-            Collectible(1340, 404, "research_note", "Research 2", "Study Island", "zen_research"),
-            Collectible(1515, 402, "research_note", "Research 3", "Study Island", "zen_research"),
+            Collectible(1040, 446, "school_supply", "eileen_supply_1", "Supply 1", "Study Island", "eileen_supplies"),
+            Collectible(1260, 444, "school_supply", "eileen_supply_2", "Supply 2", "Study Island", "eileen_supplies"),
+            Collectible(1490, 442, "school_supply", "eileen_supply_3", "Supply 3", "Study Island", "eileen_supplies"),
+            Collectible(1110, 410, "research_note", "zen_research_1", "Research 1", "Study Island", "zen_research"),
+            Collectible(1340, 404, "research_note", "zen_research_2", "Research 2", "Study Island", "zen_research"),
+            Collectible(1515, 402, "research_note", "zen_research_3", "Research 3", "Study Island", "zen_research"),
         ]
 
         self.checkpoints = [

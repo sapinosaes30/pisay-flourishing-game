@@ -30,7 +30,7 @@ jobs:
         run: python -m pip install -r requirements.txt
 
       - name: Install pygbag
-        run: python -m pip install --upgrade pygbag==0.9.4
+        run: python -m pip install --upgrade pygbag==0.9.3
 
       - name: Validate project
         run: |

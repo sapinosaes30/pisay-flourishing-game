@@ -14,13 +14,13 @@ From this folder:
 
 ```text
 py -m pip install -r requirements.txt
-py -m pip install --user --upgrade pygbag==0.9.4
+py -m pip install --user --upgrade pygbag==0.9.3
 py -m pygbag .
 ```
 
 Open the local URL printed by pygbag.
 
-For a release build (the package is currently pinned to pygbag 0.9.4):
+For a release build (the package is currently pinned to pygbag 0.9.3):
 
 ```text
 py -m pygbag --build --title "PISAY FLOATING ISLANDS" .

@@ -8,7 +8,7 @@ echo ===============================================
 echo.
 
 echo Installing/updating pygbag for this build...
-py -m pip install --user --upgrade pygbag==0.9.4
+py -m pip install --user --upgrade pygbag==0.9.3
 if errorlevel 1 goto :error
 
 echo.
